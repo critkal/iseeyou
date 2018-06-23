@@ -36,7 +36,9 @@ while True:
     if anterior != len(faces):
         anterior = len(faces)
         log.info("faces: "+str(len(faces))+" at "+str(dt.datetime.now()))
-
+        sub_face = frame[y:y+h, x:x+w]
+        FaceFileName = "unknowfaces/face_" + str(y) + ".jpg"
+        cv2.imwrite(FaceFileName, sub_face)
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
@@ -44,9 +46,6 @@ while True:
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
-    # Display the resulting frame
-    cv2.imshow('Video', frame)
 
 # When everything is done, release the capture
 video_capture.release()
