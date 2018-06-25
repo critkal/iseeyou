@@ -6,7 +6,9 @@ class AlertController():
 
 	def Imprime_Alerta(foragido, rosto, camera):
 		#Cria um alerta com esses parametros
-		#Chama a função que para imprimir o "alerta_foragido()", da classe Alerta.
+		#Adiciona a lista de alertas.
+		#Imprime
+
 
 
 
