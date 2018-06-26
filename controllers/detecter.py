@@ -4,7 +4,7 @@ import logging as log
 import datetime as dt
 from time import sleep
 
-class DetectionControler:
+class DetectionControler():
 
     def accessWebCam(self, cascPath):
         faceCascade = cv2.CascadeClassifier(cascPath)
