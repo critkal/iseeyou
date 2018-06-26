@@ -6,8 +6,7 @@ from time import sleep
 
 class DetectionControler:
 
-    def accessWebCam(self):
-        cascPath = "haarcascade_frontalface_default.xml"
+    def accessWebCam(self, cascPath):
         faceCascade = cv2.CascadeClassifier(cascPath)
         log.basicConfig(filename='webcam.log',level=log.INFO)
 
