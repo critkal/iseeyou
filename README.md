@@ -20,7 +20,9 @@ rodar
 ```sh
  .\__init__.py
  ```
-##Diretrizes para Boas Praticas de programação usadas
-*para documentação: https://www.python.org/dev/peps/pep-0257/
-*para padronização e estilização de código: https://www.python.org/dev/peps/pep-0008/
-*para convenções e modularização: https://airbrake.io/blog/python/python-best-practices
+
+### Diretrizes para Boas Praticas de programação usadas
+
+* para documentação: https://www.python.org/dev/peps/pep-0257/
+* para padronização e estilização de código: https://www.python.org/dev/peps/pep-0008/
+* para convenções e modularização: https://airbrake.io/blog/python/python-best-practices
