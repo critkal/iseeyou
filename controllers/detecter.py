@@ -7,6 +7,12 @@ from time import sleep
 class DetectionController():
 
     def accessWebCam(self, cascPath):
+        """Access the webCam and start detecting faces using the an algoritm
+        
+        Keyword arguments:
+        cascPath -- String path to the face detection algrotim (default '')
+        """
+        
         faceCascade = cv2.CascadeClassifier(cascPath)
         log.basicConfig(filename='webcam.log',level=log.INFO)
 

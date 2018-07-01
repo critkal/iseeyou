@@ -22,6 +22,8 @@ class DataController:
     
 
     def downloadForagidos(self):
+        """Access a website containing the outlaws images and download all of them"""
+        
         url='http://www2.defesasocial.rn.gov.br/foragidos/index.html' ## give the url here
         url2img='http://www2.defesasocial.rn.gov.br/foragidos/'
 

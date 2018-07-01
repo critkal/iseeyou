@@ -1,14 +1,26 @@
 # iseeyou
-Projeto para disciplina de Análise e Projeto Orientado a Objetos - UFRN
 
-Install Python 2.7
+Projeto para disciplina de Análise e Projeto Orientado a Objetos e de Boas Práticas de Programação- UFRN
 
-create an virtual environment
+para rodar o projeto, siga os seguintes passos:
 
-activate the environment
+Instalar Python 2.7
 
-clone this repository
+Criar um virtual environment
 
-run pip install -r requirements.txt
+ativar o environment
 
-run app.py
+clonar esse repositório
+
+entrar na pasta raiz do projeto e rodar 
+```sh
+pip install -r requirements.txt
+```
+rodar 
+```sh
+ .\__init__.py
+ ```
+##Diretrizes para Boas Praticas de programação usadas
+*para documentação: https://www.python.org/dev/peps/pep-0257/
+*para padronização e estilização de código: https://www.python.org/dev/peps/pep-0008/
+*para convenções e modularização: https://airbrake.io/blog/python/python-best-practices
