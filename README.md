@@ -22,7 +22,15 @@ rodar
  ```
 
 ### Diretrizes para Boas Praticas de programação usadas
-
+* geral: https://www.python.org/dev/peps/
 * para documentação: https://www.python.org/dev/peps/pep-0257/
 * para padronização e estilização de código: https://www.python.org/dev/peps/pep-0008/
 * para convenções e modularização: https://airbrake.io/blog/python/python-best-practices
+
+### Ferramenta de análise estática usada
+
+Pylint - https://www.pylint.org/
+
+### Testes
+
+pytest - https://docs.pytest.org/en/latest/contents.html

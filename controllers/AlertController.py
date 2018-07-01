@@ -1,3 +1,5 @@
+"""This module sends alerts."""
+
 import smtplib
 
 class AlertController():
@@ -8,7 +10,7 @@ class AlertController():
 
 	def Imprime_Alerta(self, Alerta):
 		"""Print the alert message"""
-		
+
 		#Cria um alerta com esses parametros
 		print (Alerta._mensagem)
 		#Adiciona a lista de alertas.

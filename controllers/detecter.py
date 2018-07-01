@@ -1,3 +1,5 @@
+"""This module detect faces using the webcam."""
+
 import cv2
 import sys
 import logging as log

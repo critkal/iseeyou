@@ -1,3 +1,4 @@
+"""This module defines Alerta and its methods."""
 import foragido
 import camera
 import smtplib

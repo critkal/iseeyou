@@ -1,3 +1,4 @@
+"""This module defines Camera."""
 class Camera(object):
 
     def __init__(self, latitude, longitude, elevacao, rua):

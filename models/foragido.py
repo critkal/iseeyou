@@ -1,3 +1,4 @@
+"""This module defines a Foragido."""
 import rosto
 
 class Foragido(object):
