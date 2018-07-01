@@ -26,12 +26,12 @@ class AlertController():
 		 
 		# Preparando a mensagem
 		msg = '\r\n'.join([
-						'From: %s' % remetente,
-						'To: %s' % destinatario,
-						'Subject: %s' % assunto,
-						'',
-						'%s' % texto
-						])
+			'From: %s' % remetente,
+			'To: %s' % destinatario,
+			'Subject: %s' % assunto,
+			'',
+			'%s' % texto
+			])
 		 
 		# Enviando o email
 		server = smtplib.SMTP('smtp.gmail.com:587')
